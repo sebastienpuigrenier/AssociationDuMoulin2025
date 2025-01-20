@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ba8fd03-30b9-42a9-bb06-da91e7f24b9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/.env.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php.meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.php.meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.preload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml.meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainer.xml.meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/cache/dev/App_KernelDevDebugContainerCompiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq.legacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/App_KernelDevDebugContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/RequestPayloadValueResolverGhost01ca9cc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_BackedEnumResolverService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_DatetimeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_QueryParameterValueResolverService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_RequestAttributeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_RequestPayloadService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_RequestService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_ServiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_SessionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getArgumentResolver_VariadicService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_AppClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_AppService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_App_TaggableService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_GlobalClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_SystemClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getCache_SystemService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConfigBuilder_WarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_CommandLoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_AboutService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CacheClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CachePoolDeleteService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CachePoolInvalidateTagsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CachePoolListService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_ContainerLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_DotenvDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_RouterDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_RouterMatchService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsDecryptToLocalService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsEncryptFromLocalService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsGenerateKeyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsListService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsRemoveService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsRevealService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_SecretsSetService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_Command_YamlLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getConsole_ErrorListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getContainer_EnvVarProcessorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getContainer_EnvVarProcessorsLocatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getContainer_GetRoutingConditionServiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getDebug_ErrorHandlerConfiguratorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getErrorControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getLoaderInterfaceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getRedirectControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getRouter_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getRouting_LoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getSecrets_EnvVarLoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getSecrets_VaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getServicesResetterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getSession_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/getTemplateControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_About_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_AssetsInstall_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CacheClear_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CachePoolClear_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CachePoolDelete_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CachePoolInvalidateTags_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CachePoolList_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CachePoolPrune_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_CacheWarmup_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_ConfigDebug_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_ConfigDumpReference_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_ContainerDebug_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_ContainerLint_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_DebugAutowiring_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_DotenvDebug_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_EventDispatcherDebug_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_RouterDebug_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_RouterMatch_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsDecryptToLocal_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsEncryptFromLocal_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsGenerateKey_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsList_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsRemove_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsReveal_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_SecretsSet_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_Console_Command_YamlLint_LazyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_ServiceLocator_ZHyJIs5Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_ServiceLocator_ZHyJIs5_KernelloadRoutesService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/get_ServiceLocator_ZHyJIs5_KernelregisterContainerConfigurationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/cache/dev/ContainerHKTZZIq/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/var/log/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/var/log/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/vendor/composer/installed.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2rtwvs4OI1ZHRyuGRY4iFyuvsnM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/sebastienpuigrenier/Projets/AssociationDuMoulin2025",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PS-243.22562.233" />
+        <option value="bundled-php-predefined-a98d8de5180a-7980c7aaca61-com.jetbrains.php.sharedIndexes-PS-243.22562.233" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ba8fd03-30b9-42a9-bb06-da91e7f24b9e" name="Changes" comment="" />
+      <created>1737391913015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737391913015</updated>
+      <workItem from="1737391914191" duration="8884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Backend" />
+    </ignored-roots>
+  </component>
+</project>

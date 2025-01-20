@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'b6ff2cb2fc792e1bfa04aa667d21f92ce23870b4',
+        'reference' => '0b7a37b97fe6a49975a9063af493462d012bc738',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'b6ff2cb2fc792e1bfa04aa667d21f92ce23870b4',
+            'reference' => '0b7a37b97fe6a49975a9063af493462d012bc738',
             'dev_requirement' => false,
         ),
         'composer/semver' => array(
@@ -264,6 +264,15 @@
             'aliases' => array(),
             'reference' => 'c00d78fb6b29658347f9d37ebe104bffadf36299',
             'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '2.1.1',
+            'version' => '2.1.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'reference' => 'cd6e973e04b4c2b94c86e8612b5a65f0da0e08e7',
+            'dev_requirement' => true,
         ),
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '9.2.32',
@@ -1046,6 +1055,15 @@
             'reference' => '2fb86d65e2d424369ad2905e83b236a8805ba491',
             'dev_requirement' => false,
         ),
+        'symfony/polyfill-uuid' => array(
+            'pretty_version' => 'v1.31.0',
+            'version' => '1.31.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-uuid',
+            'aliases' => array(),
+            'reference' => '21533be36c24be3f4b1669c4725c7d1d2bab4ae2',
+            'dev_requirement' => false,
+        ),
         'symfony/process' => array(
             'pretty_version' => 'v7.2.0',
             'version' => '7.2.0.0',
@@ -1227,6 +1245,15 @@
             'install_path' => __DIR__ . '/../symfony/type-info',
             'aliases' => array(),
             'reference' => '3b5a17470fff0034f25fd4287cbdaa0010d2f749',
+            'dev_requirement' => false,
+        ),
+        'symfony/uid' => array(
+            'pretty_version' => 'v7.2.0',
+            'version' => '7.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/uid',
+            'aliases' => array(),
+            'reference' => '2d294d0c48df244c71c105a169d0190bfb080426',
             'dev_requirement' => false,
         ),
         'symfony/ux-turbo' => array(
