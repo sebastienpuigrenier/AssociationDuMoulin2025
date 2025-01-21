@@ -1,0 +1,9 @@
+1744b3,127.0.0.1,GET,http://127.0.0.1:8000/,1737461989,,404,request
+d95aa1,127.0.0.1,GET,http://127.0.0.1:8000/utilisateur,1737461993,6ebc5e,500,request
+6ebc5e,127.0.0.1,GET,http://127.0.0.1:8000/utilisateur,1737461993,,500,request
+f16f1e,127.0.0.1,GET,http://127.0.0.1:8000/utilisateur,1737462051,,400,request
+31699a,127.0.0.1,GET,http://127.0.0.1:8000/favicon.ico,1737462052,15320a,404,request
+15320a,127.0.0.1,GET,http://127.0.0.1:8000/favicon.ico,1737462052,,404,request
+af477e,127.0.0.1,POST,http://127.0.0.1:8000/utilisateur,1737462207,,400,request
+7b81a3,127.0.0.1,POST,http://127.0.0.1:8000/utilisateur,1737462296,,400,request
+22f515,127.0.0.1,POST,http://127.0.0.1:8000/utilisateur,1737462360,,201,request
