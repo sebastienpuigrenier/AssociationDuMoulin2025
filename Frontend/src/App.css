@@ -2,17 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
 /*import css asset*/
-@import 'assets/button_text/ButtonText.css';
-@import 'assets/form/FormCustom.css';
+@import "assets/button_text/ButtonText.css";
+@import "assets/form/FormCustom.css";
+@import "assets/container_2_frames/Container2Frames.css";
 
 #root {
-  --black: #020300;
-  --white: #ffffff;
+  --black: #242424;
+  --white: #FFFFFF;
   --primary: #7D8CA3;
   --primary-light: #79A9D1;
-  --primary-light-extra: #a8bed5;
-  --secondary: #FC5130;
-  --secondry-light: #F17300;
+  --primary-light-extra: #A8BED5;
+  --secondary: #FF416C;
+  --secondary-light: #FF4B2B;
   --black-shadow-1: 0 14px 28px rgba(0, 0, 0, 0.25);
   --black-shadow-2:0 10px 10px rgba(0, 0, 0, 0.22);
   max-width: 1280px;
