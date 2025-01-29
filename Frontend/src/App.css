@@ -1,42 +1,67 @@
+/*import font*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+/*import css asset*/
+@import 'assets/button_text/ButtonText.css';
+@import 'assets/form/FormCustom.css';
+
 #root {
+  --black: #020300;
+  --white: #ffffff;
+  --primary: #7D8CA3;
+  --primary-light: #79A9D1;
+  --primary-light-extra: #a8bed5;
+  --secondary: #FC5130;
+  --secondry-light: #F17300;
+  --black-shadow-1: 0 14px 28px rgba(0, 0, 0, 0.25);
+  --black-shadow-2:0 10px 10px rgba(0, 0, 0, 0.22);
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+body {
+  background: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: bold;
+  margin: 0;
 }
 
-.card {
-  padding: 2em;
+h2 {
+  text-align: center;
 }
 
-.read-the-docs {
-  color: #888;
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
 }
+
+span {
+  font-size: 12px;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
