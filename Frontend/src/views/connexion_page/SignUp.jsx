@@ -1,40 +1,100 @@
 import React from "react";
 import FormCustom from "assets/form/FormCustom.jsx";
+import ButtonText from "assets/button_text/ButtonText.jsx";
 function SignUp(
     {
         className,
     }
 ) {
+
+    let formDefinition = {
+        key:"SignUp",
+        className:"",
+        titre:"Créer un compte",
+        buttonText:"Créer son compte",
+    }
+    let inputs = [
+        {
+            name:"nom",
+            type:"text",
+            placeholder:"Nom",
+        },
+        {
+            name:"prenom",
+            type:"text",
+            placeholder:"Prénom",
+        },
+        {
+            name:"email",
+            type:"email",
+            placeholder:"Email",
+        },
+        {
+            type:"password",
+            placeholder:"Mot de passe",
+            name:"Mot de passe",
+        }
+    ]
+
+    const initialState = inputs.reduce((acc, input) => {
+        acc[input.name] = "";
+        return acc;
+    }, {});
+
+    const [state, setState] = React.useState(initialState);
+
+    const handleChange = evt => {
+        const value = evt.target.value;
+        setState({
+            ...state,
+            [evt.target.name]: value
+        });
+    };
+    const handleOnSubmit = evt => {
+        evt.preventDefault();
+        alert(
+            inputs.map((input) => {
+                return (`${input.name} : ${state[input.name]}`)
+            }).join("\n")
+        );
+
+        for (const key in state) {
+            setState({
+                ...state,
+                [key]: ""
+            });
+        }
+    }
+
+
     return (
-        <FormCustom
-            key="SignUp"
-            className={className}
-            titre="Créer un compte"
-            inputs ={[
-                {
-                    name:"nom",
-                    type:"text",
-                    placeholder:"Nom",
-                },
-                {
-                    name:"prenom",
-                    type:"text",
-                    placeholder:"Prénom",
-                },
-                {
-                    name:"email",
-                    type:"email",
-                    placeholder:"Email",
-                },
-                {
-                    type:"password",
-                    placeholder:"Mot de passe",
-                    name:"Mot de passe",
-                }
-            ]}
-            buttonText="Créer son compte"
-        />
-    );
+            <div
+                className={`form-container ${className || ""}`}
+            >
+                <form
+                    onSubmit={handleOnSubmit}
+                >
+                    <h1>{formDefinition.titre}</h1>
+                    {inputs.map((input, index) => {
+                        return (
+                            <input
+                                key={index}
+                                type={input.type}
+                                placeholder={input.placeholder}
+                                name={input.name}
+                                value={state[input.name]}
+                                onChange={handleChange}
+                            />
+                        )
+                    })}
+                    <ButtonText
+                        text={formDefinition.buttonText}
+                        id={`${formDefinition.titre}_${formDefinition.buttonText}`}
+                    />
+
+                </form>
+            </div>
+    )
 }
 
 export default SignUp;

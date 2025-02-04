@@ -36,11 +36,11 @@ function Container2Frames (
                     </div>
                     <div className="overlay-panel overlay-right">
                         <h1>{overlay[1].titre}</h1>
-                        <p>{overlay[0].texte}</p>
+                        <p>{overlay[1].texte}</p>
                         <ButtonText
-                            text={overlay[0].boutonTitre}
+                            text={overlay[1].boutonTitre}
                             className="ghost "
-                            id={overlay[0].boutonTitre}
+                            id={overlay[1].boutonTitre}
                             onClick={() => handleOnClick("leftFrameActivated")}
                         />
                     </div>
