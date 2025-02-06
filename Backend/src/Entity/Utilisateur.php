@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\UtilisateurRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Ramsey\Uuid\Uuid;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 
@@ -12,10 +13,9 @@ use Symfony\Component\Security\Core\User\UserInterface;
 class Utilisateur implements UserInterface, PasswordAuthenticatedUserInterface
 {
     #[ORM\Id]
-    #[ORM\Column(type: 'uuid')]
-    #[ORM\GeneratedValue(strategy: 'CUSTOM')]
-    #[ORM\CustomIdGenerator('doctrine.uuid_generator')]
-    private $id;
+    #[ORM\Column(type: 'string')]
+    #[ORM\GeneratedValue(strategy: 'NONE')]
+    private String $id;
 
     #[ORM\Column(type: 'string', length: 100)]
     private string $nom;
@@ -35,7 +35,11 @@ class Utilisateur implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(type: 'string')]
     private string $password;
 
-    public function getId(): UuidInterface
+    public function __construct()
+    {
+        $this->id = Uuid::uuid4()->toString();
+    }
+    public function getId(): String
     {
         return $this->id;
     }

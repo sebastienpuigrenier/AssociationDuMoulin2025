@@ -29,7 +29,11 @@ final class UtilisateurController extends AbstractController
         $utilisateur->setPassword(password_hash($data['password'], PASSWORD_BCRYPT));
 
         $entityManager->persist($utilisateur);
-        $entityManager->flush();
+        try {
+            $entityManager->flush();
+        } catch (\Exception $e) {
+            return new Response('Une erreur est survenue', Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
 
         return new Response('Utilisateur créé avec succès', Response::HTTP_CREATED);
 
