@@ -1,6 +1,8 @@
 import React from "react";
-import FormCustom from "assets/form/FormCustom.jsx";
+import axiosConfig from "src/utils/axios/axiosConfig.js";
 import ButtonText from "assets/button_text/ButtonText.jsx";
+import axios from "axios";
+import {toast} from "react-toastify";
 function SignUp(
     {
         className,
@@ -32,7 +34,7 @@ function SignUp(
         {
             type:"password",
             placeholder:"Mot de passe",
-            name:"Mot de passe",
+            name:"password",
         }
     ]
 
@@ -52,12 +54,20 @@ function SignUp(
     };
     const handleOnSubmit = evt => {
         evt.preventDefault();
-        alert(
-            inputs.map((input) => {
-                return (`${input.name} : ${state[input.name]}`)
-            }).join("\n")
-        );
+        let data = {}
+        inputs.forEach((input) => {
+            data[input.name] = state[input.name];
+        });
 
+        axiosConfig.post(
+            '/utilisateur',
+            data)
+            .then(
+                () => toast.success('Nouvel utilisateur créé !')
+            )
+            .catch(
+                () => toast.error('Un problème est survenu durant la création.')
+            )
         for (const key in state) {
             setState({
                 ...state,
