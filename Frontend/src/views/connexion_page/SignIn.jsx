@@ -1,6 +1,8 @@
 import React from "react";
 import ButtonText from "assets/button_text/ButtonText.jsx";
 import axios from "axios";
+import axiosConfig from "src/utils/axios/axiosConfig.js";
+import {toast} from "react-toastify";
 
 function SignInForm(
     {
@@ -44,12 +46,22 @@ function SignInForm(
     };
     const handleOnSubmit = evt => {
         evt.preventDefault();
-        alert(
-            inputs.map((input) => {
-                return (`${input.name} : ${state[input.name]}`)
-            }).join("\n")
-        );
-
+        let data = {
+            "username": state[inputs[0].name],
+            "password": state[inputs[1].name],
+        }
+        axiosConfig.post(
+            '/login',
+            data)
+            .then(
+                (response) => {
+                    localStorage.setItem('associationDuMoulinToken', response.data.token)
+                    toast.success('L\'identification a réussi !')
+                }
+            )
+            .catch(
+                () => toast.error('Un problème est survenu durant l\'identification.')
+            )
         for (const key in state) {
             setState({
                 ...state,
