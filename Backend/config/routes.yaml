@@ -9,3 +9,14 @@ app_creation_utilisateur:
     path:       /utilisateur
     controller: App\Controller\UtilisateurController::creationUtilisateur
     methods:    PUT
+
+# ENFANT
+app_creation_enfant:
+    path:       /enfant/creation
+    controller: App\Controller\EnfantController::creationEnfant
+    methods:    PUT
+
+app_recuperation_enfant:
+    path: /enfant/information
+    controller: App\Controller\EnfantController::getEnfant
+    methods: GET
