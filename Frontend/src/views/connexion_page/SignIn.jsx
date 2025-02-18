@@ -1,14 +1,15 @@
 import React from "react";
 import ButtonText from "assets/button_text/ButtonText.jsx";
-import axios from "axios";
 import axiosConfig from "src/utils/axios/axiosConfig.js";
 import {toast} from "react-toastify";
+import {useNavigate} from "react-router-dom";
 
 function SignInForm(
     {
         className,
     }
 ) {
+    const navigate = useNavigate()
 
     let formDefinition = {
         key:"SignUp",
@@ -56,6 +57,7 @@ function SignInForm(
             .then(
                 (response) => {
                     localStorage.setItem('associationDuMoulinToken', response.data.token)
+                    navigate('/back-office/index');
                     toast.success('L\'identification a réussi !')
                 }
             )
