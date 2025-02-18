@@ -3,3 +3,8 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+app_creation_utilisateur:
+    path: /utilisateur
+    controller: App/src/Controller/UtilisateurController::creationUtilisateur
+    methods: PUT
