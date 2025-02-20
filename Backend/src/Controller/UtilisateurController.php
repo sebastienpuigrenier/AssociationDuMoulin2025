@@ -19,9 +19,22 @@ final class UtilisateurController extends AbstractController
     {
         $data = json_decode($request->getContent(), true);
 
-        if ($data === null || !isset($data['nom']) || !isset($data['prenom']) || !isset($data['email']) || !isset($data['password'])) {
-            return new Response('Invalid request data', Response::HTTP_BAD_REQUEST);
+        if (
+            $data === null
+            || !isset($data['nom'])
+            || !isset($data['prenom'])
+            || !isset($data['email'])
+            || !isset($data['password'])
+        ) {
+            return new Response('Données invalides ou manquantes', Response::HTTP_BAD_REQUEST);
         }
+
+        if (
+            !filter_var($data['email'], FILTER_VALIDATE_EMAIL)
+        ) {
+            return new Response('Email non valide', Response::HTTP_BAD_REQUEST);
+        }
+
         $utilisateur = new Utilisateur();
         $utilisateur->setNom($data['nom']);
         $utilisateur->setPrenom($data['prenom']);

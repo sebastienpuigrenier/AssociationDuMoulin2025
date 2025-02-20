@@ -9,6 +9,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use function PHPUnit\Framework\isNull;
 
 final class EnfantController extends AbstractController
 {
@@ -25,16 +26,26 @@ final class EnfantController extends AbstractController
     {
         $data = json_decode($request->getContent(), true);
 
-        if ($data === null || !isset($data['nom']) || !isset($data['prenom']) || !isset($data['date_de_naissance'])) {
-            return new Response('Invalid request data', Response::HTTP_BAD_REQUEST);
+        if (
+            $data === null
+            || !isset($data['nom'])
+            || !isset($data['prenom'])
+            || !isset($data['date_de_naissance'])
+        ) {
+            return new Response('Nom, prénom et date de naissance obligatoire', Response::HTTP_BAD_REQUEST);
+        }
+        if (!strtotime($data['date_de_naissance'])) {
+            return new Response('Erreur dans le format de la date', Response::HTTP_BAD_REQUEST);
+        }
+        if (
+            (isset($data['email_parent_1']) && !filter_var($data['email_parent_1'], FILTER_VALIDATE_EMAIL)) ||
+            (isset($data['email_parent_2']) && !filter_var($data['email_parent_2'], FILTER_VALIDATE_EMAIL))
+        ) {
+            return new Response('Erreur dans le format d\'au moins un email', Response::HTTP_BAD_REQUEST);
         }
 
         $enfant = new Enfant();
-        try {
-            $enfant->setDateDeNaissance(new \DateTimeImmutable($data['date_de_naissance']));
-        } catch (\DateMalformedStringException $e) {
-            return new Response('Erreur dans le format de la date', Response::HTTP_BAD_REQUEST);
-        }
+        $enfant->setDateDeNaissance(new \DateTimeImmutable($data['date_de_naissance']));
         $enfant->setNom($data['nom']);
         $enfant->setPrenom($data['prenom']);
         $enfant->setEmailParent1($data['email_parent_1'] ?? null);
